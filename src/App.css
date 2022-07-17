@@ -1,0 +1,47 @@
+.MuiTableCell-root div {
+  border-bottom: none !important;
+}
+.mui-table svg {
+  display: none !important;
+}
+.mui-table th {
+  border: 1px solid #d3d0d0;
+  color: #beb5b5;
+  font-size: 16px;
+}
+.mui-table th:nth-child(1) {
+  color: #4381d3;
+}
+.mui-table td {
+  border: 1px solid #f1f1f1;
+}
+.mui-table td:nth-child(1) div p {
+  margin-left: 8px;
+}
+.mui-table td:nth-child(4) div p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+.mui-table td:nth-child(5) div p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+.mui-table tr:nth-child(3) td:nth-child(1) {
+  border-left: 4px solid cadetblue;
+}
+.MuiTableCell-root {
+  border-bottom: none;
+}
+.mui-table tr:nth-child(3) td:nth-child(1) div {
+  margin-left: 20px;
+}
+.mui-table td:nth-child(6) div div p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+.mui-table .Component-horizontalScrollContainer-12 > div {
+  padding: 0 16px 0 16px;
+}
